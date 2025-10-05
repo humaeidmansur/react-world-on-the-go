@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-    <Suspense fallback={<p>Nadir is coming...</p>}>
+    <Suspense fallback={<p>Countries are coming soon...</p>}>
       <Countries countriesPromise={countriesPromise}></Countries>
     </Suspense>
     </>
